@@ -1,10 +1,11 @@
-import fs from 'fs';
-import inquirer from 'inquirer';
-import { Circle, Triangle, Square } from './lib/shapes.js'; // Assuming shapes are correctly imported
+const fs = require('fs');
+const inquirer = require('inquirer');
+const { Circle, Triangle, Square } = require('./lib/shapes');
 
 async function generateLogo() {
-    try {
-        const answers = await inquirer.prompt([
+    try{
+        
+        const answers = await inquirer.default.prompt([
             {
                 type: 'input',
                 name: 'text',
