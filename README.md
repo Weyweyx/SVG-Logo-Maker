@@ -22,5 +22,7 @@ Inquirer: Used for creating command-line prompts.
 
 Jest: Testing framework used for verifying the functionality of the SVG generation.
 
+Video link : https://drive.google.com/file/d/1S4Lb3OaNeFKS0byzj3Ir4b7Dk4mIPESN/view
+
 
 
